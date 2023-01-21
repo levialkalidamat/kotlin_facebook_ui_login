@@ -65,12 +65,24 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="52dp"
         android:text="Créer un compte?"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="Besoin d'aide?"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
